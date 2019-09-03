@@ -23,7 +23,7 @@
     </platform>
 	
 	<config-file parent="/manifest/application" target="AndroidManifest.xml"  platform="android" mode="add"> 
-		<activity-alias android:label="@string/app_name" android:name=".MainActivityRed" android:icon="@mipmap/red" android:enabled="false" android:targetActivity=".HelloWorld">
+		<activity-alias android:label="@string/app_name" android:name=".red" android:icon="@mipmap/red" android:enabled="false" android:targetActivity=".HelloWorld">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
