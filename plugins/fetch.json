@@ -9,8 +9,8 @@
   },
   "cordova.plugin.androidappiconchanger": {
     "source": {
-      "type": "local",
-      "path": "C:\\Users\\Biswas\\Desktop\\cordova\\hello\\node_modules\\cordova.plugin.androidappiconchanger"
+      "type": "registry",
+      "id": "https://github.com/biswas123/androidappiconchanger.git"
     },
     "is_top_level": true,
     "variables": {}
