@@ -18,17 +18,17 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <platform name="android">
+        <allow-intent href="market:*" />
         <resource-file src="www/launcher-icons/mipmap-hdpi/red.png" target="app/src/main/res/mipmap-hdpi/red.png" />
 
-        <allow-intent href="market:*" />
-        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+        <!--   <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <activity-alias android:label="MainActivityRed" android:icon="@mipmap/red" android:name="com.example.hello.MainActivityRed" android:enabled="false" android:targetActivity="com.example.hello.MainActivity">
                 <intent-filter>
                     <action android:name="android.intent.action.MAIN" />
                     <category android:name="android.intent.category.LAUNCHER" />
                 </intent-filter>
             </activity-alias>
-        </config-file>
+        </config-file> -->
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
