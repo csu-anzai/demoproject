@@ -34,7 +34,7 @@ var app = {
     receivedEvent: function(id) {
 
 		document.getElementById("changeIcon").addEventListener("click", function(){
-			cordova.plugins.AndroidAppIconChanger.changeAppIcon("com.example.hello","Red", function(rs){alert(rs);}, function(err) {alert(err)});
+			cordova.plugins.AndroidAppIconChanger.changeAppIcon("com.example.hello","MainActivityRed", function(rs){alert(rs);}, function(err) {alert(err)});
 			document.getElementById("changeIcon").disabled = true;
 		});
 
